@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    background: #ccc;
+    position:fixed;
+    top:0;
+    width:100%;
+    transition: background 1s;
+}
+h1{
+    color:red;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    gap:20px;
+    font-family: cursive;
+}
+ul a{
+    text-decoration:none;
+    color:black;
+}
+nav.active{
+    background-color:black;
+}
+.active ul li a{
+    color:white;
+}
+.topContainer{
+    background-color:rgba(1, 1, 1, 0.6);
+    margin-block:50px;
+}
+p{
+    font-size:30px;
+}
